@@ -1,0 +1,21 @@
+R 1000 1000
+NO ./pics/colorstone.xpm
+SO ./pics/greystone.xpm
+WE ./pics/mossy.xpm
+EA ./pics/redbrick.xpm
+
+S ./pics/barrel.xpm
+F 220,100,255
+C 225,30,0
+
+1111111111
+1010000001
+1000000001
+1313333321
+101030W231
+1000002331
+1333331111
+1000000001
+1010000001
+1000000001
+1111111111
