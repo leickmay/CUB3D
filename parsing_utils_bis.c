@@ -6,7 +6,7 @@
 /*   By: leickmay <leickmay@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/10 11:08:39 by leickmay          #+#    #+#             */
-/*   Updated: 2021/03/10 11:17:10 by leickmay         ###   ########lyon.fr   */
+/*   Updated: 2021/03/11 14:00:07 by leickmay         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ void	ft_add_space(t_data *data, char **tmp_map)
 			i = -1;
 			while (++i < len)
 				new_line[i] = tmp_map[y][i];
+			i--;
 			while (++i < data->columns)
 				new_line[i] = ' ';
 			new_line[i] = '\0';
